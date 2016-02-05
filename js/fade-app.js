@@ -6,7 +6,10 @@ $(".alert-note svg").click(function(){
     
 });
 
-  $("#bell").hover( function(){ $(".alert-note").addClass("scale")}, function(){ $(".alert-note").removeClass("scale") });
+  $("#bell").hover(  
+function(){ $(".alert-note").addClass("scale");},  
+function(){ $(".alert-note").removeClass("scale"); 
+});
 
 
 
@@ -26,27 +29,27 @@ $( "#settings" ).submit(function( event ) {
  
 $( "#message" ).submit(function( event ) {
     
-    if($("#search-user").val()==""){
-        $(".message-fail").css("display","inherit");
+    if($("#search-user").val()===""){
+        $(".search-error").css("display","inherit");
         $(".message-note").css("display", "none");
         $("#bell").fadeIn();
-        
         event.preventDefault(); 
         
     }
-    else if ($("#User-message").val()==""){
-        $(".message-fail").css("display","inherit");
-        $(".message-note").css("display", "none");
-        $("#bell").fadeIn();
+    else if ($("#User-message").val()===""){
       
+        $(".message-error").css("display","inherit");
+         $(".search-error , .message-note").css("display","none");
+        
+        $("#bell").fadeIn();
         event.preventDefault(); 
         
     }
     else{
-    $(".message-fail").css("display","none");
-$(".message-note").css("display", "inherit"); 
+        $(".message-fail").css("display","none");
+        $(".message-note").css("display", "inherit"); 
         $("#bell").fadeIn();
-    event.preventDefault(); 
+        event.preventDefault(); 
     }
     
 });

@@ -150,7 +150,7 @@ header {
     height: 20px; }
 
 .wobble {
-  animation: wobble 1s; }
+  animation: wobble 1s infinite; }
 
 .selected {
   border-radius: 20px;
@@ -369,8 +369,8 @@ header {
       #people #new-members .member-add img {
         width: 40px;
         position: relative;
-        top: -10px;
         left: 5px;
+        top: -10px;
         border-radius: 100px; }
       #people #new-members .member-add h4 {
         text-align: left;
@@ -390,6 +390,10 @@ header {
         top: 5px;
         width: 35px;
         text-align: left; }
+      #people #new-members .member-add svg {
+        width: 15px;
+        height: 15px;
+        fill: #545958; }
     #people #new-members .member-add:nth-of-type(1) {
       border-top: solid 3px #bdc3c7;
       padding-top: 1px; }
@@ -413,8 +417,8 @@ header {
       #people #recent-activity .member-add img {
         width: 40px;
         position: relative;
-        top: -10px;
         left: 5px;
+        top: -10px;
         border-radius: 100px; }
       #people #recent-activity .member-add h4 {
         text-align: left;
@@ -434,6 +438,10 @@ header {
         top: 5px;
         width: 35px;
         text-align: left; }
+      #people #recent-activity .member-add svg {
+        width: 15px;
+        height: 15px;
+        fill: #545958; }
     #people #recent-activity .member-add:nth-of-type(1) {
       border-top: solid 3px #bdc3c7;
       padding-top: 1px; }
