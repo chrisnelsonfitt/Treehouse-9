@@ -1,0 +1,55 @@
+//Green Colors
+$turquoise  : #014159;
+$emerald    :#2ecc71;
+$green_sea  : #038BBF;
+$nephritis  : #28b162;
+//Blue Colors
+$peter_river : #3498db;
+$belize_hole : #2980b9;
+$baby_blue :#D5E5F2;
+//Blue Grey Colors
+$wet_asphalt:#34495e;
+$midnight_blue:#2c3e50;
+//Grey Scale Colors
+$clouds : #ecf0f1;
+$concrete :#95a5a6;
+$silver :#bdc3c7;
+$asbestos:#7f8c8d;
+$text:#545958;
+//Purple Colors
+$amethyst : #04A7E6;
+
+//Yellow Colors
+$sun_flower:#f1c40f;
+//Orange Colors
+$orange:#f39c12;
+$carrot:#e67e22;
+$pumpkin:#d35400;
+//Red Colors
+$alizarin:#e74c3c;
+
+
+//
+
+
+
+//Toggle Controls
+
+$transition: .3s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+$width: 2em;
+$height: $width/2;
+
+
+@keyframes wobble  {
+  0%  { transform:  rotate(0deg); }
+    25%  { transform:  rotate(-20deg); }
+  50%  { transform:  rotate(20deg); }
+    
+  100%  { transform:  rotate(0deg); }
+}
+
+
+@keyframes scale {
+    0%, 100% { transform: scale(1)}
+    50% { transform: scale(1.03)}
+}

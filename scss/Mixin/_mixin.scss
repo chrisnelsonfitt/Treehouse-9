@@ -1,0 +1,62 @@
+@mixin clearfix{
+    clear:both;
+    overflow: auto;
+}
+@mixin addMember{
+    
+    .member-add{
+            position: relative;
+            margin-top: 5px;
+            border-bottom: solid 2px $silver;
+            img{width:40px;
+                position: relative;
+                left:5px;
+                top:-10px;
+            border-radius: 100px;}
+            h4{
+                text-align: left;
+                line-height: 20px;
+                text-indent: 30px;
+                float:right;
+                width:calc(100% - 45px); 
+            }
+            p{
+                
+                text-align: left;
+                line-height: 20px;
+                text-indent: 30px;
+                float:right;
+                width:calc(100% - 45px); 
+            }
+            h5{
+                position: absolute;
+                right:15px;
+                top:5px;
+                width:35px;
+                text-align: left;
+                
+            }
+        svg{
+            width:15px;
+            height: 15px;
+            fill:$text;
+        }
+        
+        }
+    .member-add:nth-of-type(1){
+        border-top:solid 3px $silver;
+        padding-top:1px;
+    }
+    .member-add:nth-last-of-type(1){
+        border-bottom:none;
+        padding-top:1px;
+    }
+}
+@mixin flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    
+}

@@ -1,0 +1,16 @@
+.sidebar-container{
+    float:left;
+}
+
+.sidebar{
+    width:50px;
+    position: absolute;
+    height: 200%;
+    background:darken($belize_hole, 10%);
+    border-right: solid 3px             lighten($belize_hole, 10%);
+}
+.sidebar img{
+    margin:5px auto;;
+    display: block;
+    width:30px ;
+}

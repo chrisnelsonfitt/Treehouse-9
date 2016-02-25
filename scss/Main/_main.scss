@@ -1,0 +1,26 @@
+ *{
+  padding:0;
+  margin:0;
+     overflow-x:hidden;
+     color:#545958;
+}
+html{
+    color:darken($wet_asphalt , 10%);
+     background:$clouds;
+     font-family: 'Metrophobic', Arial, serif;  
+}  
+h3{
+    margin-left:50px;
+    line-height: 39px;
+    width:89px;
+    text-align: center;
+
+}
+.main-container{
+    float:right;
+    width:calc(100% - 53px);
+    clear: both;
+}
+input[type=submit]:hover{
+background:red;
+}

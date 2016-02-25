@@ -1,0 +1,46 @@
+.toggle{
+ width:40px;
+   
+    
+   .toggle-control{
+  cursor: pointer;
+      transition: $transition;
+      width: $width;
+      height: $height;
+      display: block;
+      border: 2px solid $concrete;
+      border-radius: $height;
+      background-color: rgba(black,.06);
+      position: relative;
+      &:after{
+       transition: $transition;
+       content: "";
+       width: $width/2;
+       height: $height;
+       display: block;
+       background-color: #fff;
+       border-radius: 50%;
+       position: absolute;
+       top: 0;
+       left: 0;
+     }
+   }
+   
+  input{
+    display: none;
+    &:checked + .toggle-control{
+      border-color: $belize_hole;
+      background-color: $belize_hole ;
+      &:after{
+        left: $width/2;
+          
+      }
+    }
+  }
+    
+  
+  .toggle_input{
+   
+  }
+  
+}

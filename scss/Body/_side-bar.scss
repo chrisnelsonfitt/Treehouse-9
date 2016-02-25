@@ -1,0 +1,22 @@
+.sidebar{
+    
+    .sidebar-container{
+    float:left;
+    }   
+        width:50px;
+        position: fixed;
+        height: 100%;
+        top:0px;
+        background:darken($belize_hole, 10%);
+        border-right: solid 3px lighten($belize_hole, 10%);
+    img{
+        margin:5px auto;;
+        display: block;
+        width:30px ;
+         cursor: pointer;
+    }
+    :nth-child(1){
+        margin-top:45px;
+    }
+}
+
